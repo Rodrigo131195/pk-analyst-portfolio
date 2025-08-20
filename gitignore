@@ -1,0 +1,36 @@
+# R / renv
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+.Rprofile
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data safety
+data/private/
+data/**/*.sas7bdat
+data/**/*.xpt
+data/**/*.sav
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.parquet
+derived/nonmem/
+*.lst
+*.ext
+*.phi
+*.shk
+*.cov
+*.cor
+report*/**/*.html
+report*/**/*.pdf
+
+# Secrets
+*.key
+*.pem
+*.env
